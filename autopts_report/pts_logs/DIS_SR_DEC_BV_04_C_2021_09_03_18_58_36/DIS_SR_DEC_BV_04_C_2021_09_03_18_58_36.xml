@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ARCHIVE>
   <VERSION>2.0</VERSION>
-  <PicsPixit>Test Case Started: DIS v. 8.0.3.2, DIS/SR/DEC/BV-04-C started on Friday, September 03, 2021, 18:37:56
+  <PicsPixit>Test Case Started: DIS v. 8.0.3.2, DIS/SR/DEC/BV-04-C started on Friday, September 03, 2021, 18:58:36
 
 ICS VALUES:
 
@@ -44,7 +44,7 @@ TSPX_tester_appearance 0000
 </PicsPixit>
   <LOG>
 
-+297 ms
++235 ms
 Receive Event:           HCI?HCI_RESET_COMPLETE_EVENT{
                            status=HCI_OK
                          }
@@ -66,7 +66,7 @@ Start Test Case:         DIS/SR/DEC/BV-04-C
 
 
 +1688 ms
-Message:                   PTS Log started on Friday, September 03, 2021, 18:38:11
+Message:                   PTS Log started on Friday, September 03, 2021, 18:58:50
 
 
 
@@ -90,7 +90,7 @@ Preliminary Verdict:     PASS
 
 
 
-+5766 ms
++5735 ms
 Send Event:              HCI!HCI_RESET
 
 
@@ -249,20 +249,20 @@ Receive Event:           HCI?HCI_LE_SET_SCAN_ENABLE_COMPLETE_EVENT{
                          }
 
 
-+6360 ms
++6250 ms
 Send Event:              HCI!HCI_LE_SET_SCAN_ENABLE{
                            leScanEnable=HCI_LE_SCAN_DISABLE,
                            filterDuplicates=HCI_LE_DUPLICATE_FILTERING_DISABLE
                          }
 
 
-+6375 ms
++6266 ms
 Receive Event:           HCI?HCI_LE_SET_SCAN_ENABLE_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+6375 ms
++6266 ms
 Send Event:              HCI!HCI_LE_CREATE_CONNECTION{
                            peerAddr=0xF90ED1BFD2EE,
                            peerAddrType=HCI_LE_RANDOM_DEVICE_ADDRESS,
@@ -279,13 +279,13 @@ Send Event:              HCI!HCI_LE_CREATE_CONNECTION{
                          }
 
 
-+6391 ms
++6282 ms
 Receive Event:           HCI?HCI_LE_CREATE_CONNECTION_STATUS_EVENT{
                            status=HCI_OK
                          }
 
 
-+6485 ms
++6375 ms
 Receive Event:           ATT?ATT_CONNECT_IND{
                            bdAddr=0xF90ED1BFD2EE,
                            peerAddrType=HCI_LE_RANDOM_DEVICE_ADDRESS,
@@ -294,7 +294,7 @@ Receive Event:           ATT?ATT_CONNECT_IND{
                          }
 
 
-+6485 ms
++6375 ms
 Receive Event:           HCI?HCI_LE_CONNECTION_COMPLETE_EVENT{
                            status=HCI_OK,
                            connectionHandle=0x0063,
@@ -308,7 +308,7 @@ Receive Event:           HCI?HCI_LE_CONNECTION_COMPLETE_EVENT{
                          }
 
 
-+6500 ms
++6375 ms
 Send Event:              HCI!GET_CONNECTION_HANDLE{
                            addr=0xF90ED1BFD2EE,
                            addr_type=0x01,
@@ -316,7 +316,7 @@ Send Event:              HCI!GET_CONNECTION_HANDLE{
                          }
 
 
-+6500 ms
++6375 ms
 Send Event:              HCI!GET_CONNECTION_HANDLE{
                            addr=0xF90ED1BFD2EE,
                            addr_type=0x01,
@@ -324,32 +324,32 @@ Send Event:              HCI!GET_CONNECTION_HANDLE{
                          }
 
 
-+6500 ms
++6375 ms
 Preliminary Verdict:     PASS
 
 
 
-+7078 ms
++6953 ms
 Verdict Description:     Connection setup successfully.
 
 
 
-+7078 ms
++6953 ms
 Pass:                    Tester successfully initiated connection.
 
 
 
-+7078 ms
++6953 ms
 Verdict Description:     Tester successfully initiated connection.
 
 
 
-+9078 ms
++8969 ms
 Verdict Description:     LE Security not initiated due to TSPX_security_enabled value.
 
 
 
-+9078 ms
++8969 ms
 Send Event:              ATT!ATT_FIND_BY_TYPE_VALUE_REQ{
                            lcid=0x1205,
                            startingHandle=0x0001,
@@ -360,7 +360,7 @@ Send Event:              ATT!ATT_FIND_BY_TYPE_VALUE_REQ{
                          }
 
 
-+9313 ms
++9063 ms
 Receive Event:           ATT?ATT_FIND_BY_TYPE_VALUE_RSP{
                            lcid=0x1205,
                            HandleRange={
@@ -373,7 +373,7 @@ Receive Event:           ATT?ATT_FIND_BY_TYPE_VALUE_RSP{
                          }
 
 
-+9469 ms
++9203 ms
 Receive Event:           ATT?ATT_FIND_BY_TYPE_VALUE_CFM{
                            lcid=1205,
                            result=0x0000,
@@ -389,27 +389,27 @@ Receive Event:           ATT?ATT_FIND_BY_TYPE_VALUE_CFM{
                          }
 
 
-+9469 ms
++9203 ms
 Preliminary Verdict:     PASS
 
 
 
-+9469 ms
++9203 ms
 Verdict Description:     Discover Primary Service by Service UUID Request completed successfully.
 
 
 
-+9469 ms
++9203 ms
 Pass:                    The IUT successfully returned the UUID for Device Information
 
 
 
-+9469 ms
++9203 ms
 Verdict Description:     The IUT successfully returned the UUID for Device Information
 
 
 
-+9469 ms
++9203 ms
 Send Event:              ATT!ATT_READ_BY_TYPE_REQ{
                            lcid=0x1205,
                            startingHandle=0x0012,
@@ -419,7 +419,7 @@ Send Event:              ATT!ATT_READ_BY_TYPE_REQ{
                          }
 
 
-+9610 ms
++9360 ms
 Receive Event:           ATT?ATT_READ_BY_TYPE_IND{
                            lcid=0x1205,
                            length=0x0010,
@@ -434,7 +434,7 @@ Receive Event:           ATT?ATT_READ_BY_TYPE_IND{
                          }
 
 
-+9610 ms
++9375 ms
 Receive Event:           ATT?ATT_READ_BY_TYPE_RSP{
                            				{
                              handle=0x0013
@@ -458,7 +458,7 @@ Receive Event:           ATT?ATT_READ_BY_TYPE_RSP{
                          }
 
 
-+9766 ms
++9578 ms
 Receive Event:           ATT?ATT_READ_BY_TYPE_IND{
                            lcid=0x1205,
                            length=0x0010,
@@ -473,7 +473,7 @@ Receive Event:           ATT?ATT_READ_BY_TYPE_IND{
                          }
 
 
-+9766 ms
++9594 ms
 Receive Event:           ATT?ATT_READ_BY_TYPE_RSP{
                            				{
                              handle=0x0017
@@ -497,7 +497,7 @@ Receive Event:           ATT?ATT_READ_BY_TYPE_RSP{
                          }
 
 
-+9907 ms
++9735 ms
 Receive Event:           ATT?ATT_READ_BY_TYPE_IND{
                            lcid=0x1205,
                            length=0x0010,
@@ -512,7 +512,7 @@ Receive Event:           ATT?ATT_READ_BY_TYPE_IND{
                          }
 
 
-+9922 ms
++9735 ms
 Receive Event:           ATT?ATT_READ_BY_TYPE_RSP{
                            				{
                              handle=0x001B
@@ -536,7 +536,7 @@ Receive Event:           ATT?ATT_READ_BY_TYPE_RSP{
                          }
 
 
-+10141 ms
++9891 ms
 Receive Event:           ATT?ATT_READ_BY_TYPE_IND{
                            lcid=0x1205,
                            length=0x0009,
@@ -549,7 +549,7 @@ Receive Event:           ATT?ATT_READ_BY_TYPE_IND{
                          }
 
 
-+10141 ms
++9891 ms
 Receive Event:           ATT?ATT_READ_BY_TYPE_RSP{
                            				{
                              handle=0x001F
@@ -564,7 +564,7 @@ Receive Event:           ATT?ATT_READ_BY_TYPE_RSP{
                          }
 
 
-+10297 ms
++10032 ms
 Receive Event:           ATT?ATT_READ_BY_TYPE_CFM{
                            lcid=0x1205,
                            attributeType=0x2803,
@@ -574,7 +574,7 @@ Receive Event:           ATT?ATT_READ_BY_TYPE_CFM{
                          }
 
 
-+10297 ms
++10032 ms
 Receive Event:           ATT?ATT_READ_BY_TYPE_CFM{
                            				{
                              handle=0x0013
@@ -643,98 +643,76 @@ Receive Event:           ATT?ATT_READ_BY_TYPE_CFM{
                          }
 
 
-+10297 ms
++10032 ms
 Preliminary Verdict:     PASS
 
 
 
-+10297 ms
++10032 ms
 Verdict Description:     Discover All Characteristics of Service Request completed successfully.
 
 
 
-+10297 ms
++10032 ms
 Preliminary Verdict:     PASS
 
 
 
-+10297 ms
++10032 ms
 Verdict Description:     Discover Characteristics by UUID Request completed successfully.
 
 
 
-+10297 ms
++10032 ms
 Pass:                    The IUT successfully returned the Characteristic for Hardware Revision String
 
 
 
-+10297 ms
++10032 ms
 Verdict Description:     The IUT successfully returned the Characteristic for Hardware Revision String
 
 
 
-+10297 ms
++10032 ms
 Pass:                    The IUT successfully returned the Characteristic Properties for Hardware Revision String
 
 
 
-+10297 ms
++10032 ms
 Verdict Description:     The IUT successfully returned the Characteristic Properties for Hardware Revision String
 
 
 
-+10297 ms
++10032 ms
 Pass:                    The IUT successfully returned the Characteristic Properties for Hardware Revision String
 
 
 
-+10297 ms
++10032 ms
 Verdict Description:     The IUT successfully returned the Characteristic Properties for Hardware Revision String
 
 
 
-+11563 ms
-Receive Event:           HCI?HCI_LE_REMOTE_CONN_PARAM_REQ_EVENT{
-                           connectionHandle=0x0063,
-                           connIntervalMin=0x0018,
-                           connIntervalMax=0x0028,
-                           connLatency=0x0000,
-                           supervisionTimeout=0x002A
-                         }
-
-
-+11610 ms
++11344 ms
 Send Event:              HCI!HCI_DISCONNECT{
                            connectionHandle=0x0063,
                            reason=HCI_REMOTE_USER_TERMINATED_CONNECTION
                          }
 
 
-+11610 ms
-Send Event:              HCI!HCI_LE_REMOTE_CONN_PARAM_REQ_REPLY{
-                           connectionHandle=0x0063,
-                           connIntervalMin=0x0018,
-                           connIntervalMax=0x0028,
-                           connLatency=0x0000,
-                           supervisionTimeout=0x002A,
-                           connInminimumCeLengthtervalMax=0x0000,
-                           maximumCeLength=0x0000
-                         }
-
-
-+11610 ms
++11344 ms
 Receive Event:           HCI?HCI_DISCONNECT_STATUS_EVENT{
                            status=HCI_OK
                          }
 
 
-+11641 ms
++11375 ms
 Receive Event:           ATT?ATT_DISCONNECT_IND{
                            lcid=0x1205
                          }
 
 
-+11641 ms
++11375 ms
 Receive Event:           HCI?HCI_LE_DISCONNECTION_COMPLETE_EVENT{
                            status=HCI_OK,
                            connectionHandle=0x0063,
@@ -742,43 +720,43 @@ Receive Event:           HCI?HCI_LE_DISCONNECTION_COMPLETE_EVENT{
                          }
 
 
-+11641 ms
++11375 ms
 Verdict Description:     Received HCI disconnection event. Handle = 0x0063
 
 
 
-+11641 ms
++11375 ms
 Verdict Description:     Connection terminated successfully.
 
 
 
-+11641 ms
++11375 ms
 Send Event:              HCI!HCI_RESET
 
 
-+11750 ms
++11500 ms
 Receive Event:           HCI?HCI_RESET_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+12860 ms
++12610 ms
 Receive Event:           HCI?HCI_RESET_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+14297 ms
++14047 ms
 Final Verdict:           PASS
 
 
 
-+14297 ms
-Encrypted Verdict:       A1#ODNjMDQ5YzUwYzMzNmE5MjdmNjc4ZjY0NWExMzgyMjFiNDVmNmQ5YmZkYWU2Y2VjZTIzYWVhNDZmNjEzMjFlZA==#EHMHxV9uv9I6jJSpRfBfZCI0Gkvod54R8nqje5L/jBb5U1zwWLPXKILfn9djec4n
++14047 ms
+Encrypted Verdict:       A1#NzFiZjlkMWE2YWU0NDdhNWUxNjllOGQ5OGQwOGEwODdhNmY5YzI4YmZjNzI1NzE2ODQ3MTdmODk3NDhhZGIxZA==#k9GnxxRpuWU/AdVL8DI62LMuQx8oaPEc3XRR7fnKbrelhc2bkUvloC36l4h+PrnL
 
 
 
-+14297 ms
++14047 ms
 Test Case Ended:         DIS/SR/DEC/BV-04-C
 
 </LOG>
