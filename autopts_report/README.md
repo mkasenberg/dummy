@@ -1,9 +1,9 @@
 # AutoPTS report
 
-Start time: 2021_09_03_18_01_37
+Start time: 2021_09_03_18_37_32
 
-End time: 2021_09_03_18_02_22
+End time: 2021_09_03_18_38_18
 
 PTS version: 8.0.3.2
 
-HEAD commit: 164029b0c5bba375e2154678fcdd0cc0a2f76fbd zephyr-v2.6.0-3042-g164029b0c5
+HEAD commit: 4e0f7ea540a8b8c736c53ef6c0dd2b033ed3d021 [zephyr-v2.6.0-3044-g4e0f7ea540]
