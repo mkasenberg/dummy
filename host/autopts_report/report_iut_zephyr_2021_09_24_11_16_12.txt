@@ -1,0 +1,2 @@
+v2.7.0-rc2-121-g611284021c
+L2CAP   L2CAP/ECFC/BV-26-C              BTP ERROR

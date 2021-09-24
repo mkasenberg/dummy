@@ -1,2 +1,0 @@
-v2.7.0-rc1-36-g0552d329c8
-DIS     DIS/SR/SD/BV-01-C               PASS
