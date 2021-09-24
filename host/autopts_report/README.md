@@ -1,8 +1,8 @@
 # AutoPTS report
 
-    Start time: 2021_09_24_11_18_31
+    Start time: 2021_09_24_12_27_43
 
-    End time: 2021_09_24_11_19_47
+    End time: 2021_09_24_12_29_02
 
     PTS version: 8.1.0.11
 

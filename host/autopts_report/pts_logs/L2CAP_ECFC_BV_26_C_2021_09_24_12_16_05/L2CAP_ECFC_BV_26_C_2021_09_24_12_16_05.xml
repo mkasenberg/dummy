@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ARCHIVE>
   <VERSION>2.0</VERSION>
-  <PicsPixit>Test Case Started: L2CAP v. 8.1.0.11, L2CAP/ECFC/BV-26-C started on Friday, September 24, 2021, 11:19:31
+  <PicsPixit>Test Case Started: L2CAP v. 8.1.0.11, L2CAP/ECFC/BV-26-C started on Friday, September 24, 2021, 12:16:05
 
 ICS VALUES:
 
@@ -151,7 +151,7 @@ TSPX_eatt_over_br_edr FALSE
 </PicsPixit>
   <LOG>
 
-+438 ms
++156 ms
 Receive Event:           HCI?HCI_RESET_COMPLETE_EVENT{
                            status=HCI_OK
                          }
@@ -173,7 +173,7 @@ Start Test Case:         L2CAP/ECFC/BV-26-C
 
 
 +1688 ms
-Message:                   PTS Log started on Friday, September 24, 2021, 11:19:42
+Message:                   PTS Log started on Friday, September 24, 2021, 12:16:16
 
 
 
@@ -192,12 +192,12 @@ Message:                   OS Name: Microsoft Windows 10 Home
 
 
 
-+5719 ms
++5703 ms
 Preliminary Verdict:     PASS
 
 
 
-+5735 ms
++5719 ms
 Send Event:              HCI!HCI_RESET
 
 
@@ -298,14 +298,14 @@ Receive Event:           HCI?HCI_WRITE_LE_HOST_SUPPORTED_COMPLETE_EVENT{
 Send Event:              HCI!HCI_LE_LOCAL_SUPPORTED_FEATURES
 
 
-+6172 ms
++6156 ms
 Receive Event:           HCI?HCI_LE_READ_LOCAL_SUPPORTED_FEATURES_COMPLETE_EVENT{
                            status=HCI_OK,
                            leFeatures=0x000000000000001F
                          }
 
 
-+6172 ms
++6156 ms
 Preliminary Verdict:     PASS
 
 
@@ -347,23 +347,23 @@ Send Event:              HCI!HCI_LE_ADD_DEVICE_TO_FILTER_ACCEPT_LIST{
                          }
 
 
-+6188 ms
++6172 ms
 Receive Event:           HCI?HCI_LE_ADD_DEVICE_TO_FILTER_ACCEPT_LIST_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+6188 ms
++6172 ms
 Preliminary Verdict:     PASS
 
 
 
-+6188 ms
++6172 ms
 Preliminary Verdict:     PASS
 
 
 
-+6188 ms
++6172 ms
 Send Event:              HCI!HCI_LE_SET_ADVERTISING_PARAMETERS{
                            advertisingIntervalMin=0x0200,
                            advertisingIntervalMax=0x0300,
@@ -445,7 +445,7 @@ Preliminary Verdict:     PASS
 
 
 
-+6719 ms
++6703 ms
 Receive Event:           HCI?HCI_LE_CONNECTION_COMPLETE_EVENT{
                            status=HCI_OK,
                            connectionHandle=0x0061,
@@ -459,27 +459,27 @@ Receive Event:           HCI?HCI_LE_CONNECTION_COMPLETE_EVENT{
                          }
 
 
-+6719 ms
++6703 ms
 Preliminary Verdict:     PASS
 
 
 
-+6719 ms
++6703 ms
 Verdict Description:     Connection established successfully.
 
 
 
-+6719 ms
++6703 ms
 Pass:                    Peripheral successfully received connection request.
 
 
 
-+6719 ms
++6703 ms
 Verdict Description:     Peripheral successfully received connection request.
 
 
 
-+6719 ms
++6703 ms
 Send Event:              HCI!GET_CONNECTION_HANDLE{
                            addr=0xF90ED1BFD2EE,
                            addr_type=0x01,
@@ -487,7 +487,7 @@ Send Event:              HCI!GET_CONNECTION_HANDLE{
                          }
 
 
-+7735 ms
++7719 ms
 Send Event:              HCI!GET_CONNECTION_HANDLE{
                            addr=0xF90ED1BFD2EE,
                            addr_type=0x01,
@@ -495,12 +495,12 @@ Send Event:              HCI!GET_CONNECTION_HANDLE{
                          }
 
 
-+7735 ms
++7719 ms
 Verdict Description:     Connection Handle = 0061
 
 
 
-+7735 ms
++7719 ms
 Verdict Description:     Sent=L2CAP Credit Based Connection REQ: 
     Code: [23 (0x17)] Code
     Identifier: [1 (0x01)]
@@ -513,7 +513,7 @@ Verdict Description:     Sent=L2CAP Credit Based Connection REQ:
 
 
 
-+7735 ms
++7719 ms
 Send Event:              HCI!ACL_DATA_REQ{
                            connectionHandle=0x0061,
                            boundary=0x00,
@@ -523,7 +523,7 @@ Send Event:              HCI!ACL_DATA_REQ{
                          }
 
 
-+7813 ms
++7797 ms
 Receive Event:           HCI?ACL_DATA{
                            connHandle=0x0061,
                            length=18,
@@ -532,7 +532,7 @@ Receive Event:           HCI?ACL_DATA{
                          }
 
 
-+7813 ms
++7797 ms
 Verdict Description:     ReceivePacket!
 receive=0E00050018010A000000000000000C000000, CID=5
 
@@ -551,29 +551,29 @@ Verdict Description:     Received CMD:L2CAP Credit Based Connection RSP:
 
 
 
-+8031 ms
++8016 ms
 Send Event:              HCI!HCI_RESET
 
 
-+8141 ms
++8125 ms
 Receive Event:           HCI?HCI_RESET_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+9266 ms
++9250 ms
 Receive Event:           HCI?HCI_RESET_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+10688 ms
++10672 ms
 Final Verdict:           PASS
 
 
 
-+10688 ms
-Encrypted Verdict:       A1#ZGY3Yzc3MDgzY2I1YjRmN2M0ZGZkMzg3Y2E4ZDNhZmRjNzIxNzQ0YThiN2QyNzE2MWJkZGEwNTRiNjM3YThhMA==#TW9d0DsyUH8kpDNuzuCAKlWRIV0mbYJGzD2cdVODbiLeYzHFVlEZmCHzwuupVdFv
++10672 ms
+Encrypted Verdict:       A1#ZGU0ZTUxZDEwYWU1MmYyODJlOWUyOTM1MDA5ZWYwNmJmNmMwYmM5YTk1YzkxODBlMDBlNmY5YzJjZDk5NTg5Yw==#WcEjJrkZXYqhz3atIPhMEmx56Xcq/aCBHat4M2n4lIvw+OjDLrdYCtujRZJBC13l
 
 
 
